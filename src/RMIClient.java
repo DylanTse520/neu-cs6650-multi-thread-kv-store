@@ -48,7 +48,7 @@ public class RMIClient {
             // Prepopulate server's key-value store
             Helper.log("Pre-populating server's key-value store.");
             // Read pre-population data
-            File prePopulationFile = new File("resources/PRE_POPULATION");
+            File prePopulationFile = new File("src/PRE_POPULATION");
             // Create the scanner
             Scanner sc = new Scanner(prePopulationFile);
             // Read each line
@@ -63,7 +63,7 @@ public class RMIClient {
             // Complete the minimum operation request
             Helper.log("Completing minimum operation request.");
             // Read minimum operation data
-            File operationFile = new File("resources/MINIMUM_OPERATION");
+            File operationFile = new File("src/MINIMUM_OPERATION");
             // Create the scanner
             sc = new Scanner(operationFile);
             // Read each line
